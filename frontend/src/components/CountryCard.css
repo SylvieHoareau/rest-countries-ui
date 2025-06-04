@@ -1,0 +1,37 @@
+.country-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.country-card-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.country-card-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.country-card-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.country-card-item h3 {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+.country-card-item p {
+    margin: 0.2rem 0;
+    color: #555;
+}
